@@ -1,0 +1,48 @@
+
+
+.kurs-container {
+    width: 80%;
+    max-width: 1200px;
+    margin-top: 70px; /* Adjust for topbar height */
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.course {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    box-shadow: 0 10px 14px rgba(0, 0, 0, 0.1);
+}
+
+.course h3 {
+    color: orange;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.course p {
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+.course a {
+    display: inline-block;
+    color: white;
+    background-color: orange;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.course a:hover {
+    background-color: darkorange;
+}
+

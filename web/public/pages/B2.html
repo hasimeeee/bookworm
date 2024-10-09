@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/public/css/index.css">
+    <link rel="stylesheet" href="/public/css/a1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>BookWorm | COURSES</title>
+</head>
+<body>
+
+    <div class="topbar">
+        <div class="wrapper">
+            <div class="left">
+                <img src="../img/jojo.png" alt="Logo" class="transparent-logo">
+                </div>
+
+            <div class="center">
+                <span></span>
+                <div class="searchEngine" id="searchEngine">
+                    <input type="text" placeholder="...">
+                    <i class="fa-solid fa-magnifying-glass" id="searchIcon"></i>
+                </div>
+            </div>
+            <div class="right">
+                <a href="../index.html">HOME</a>
+                <a href="login.html">LOGIN</a>
+                <a href="register.html">REGISTER</a>
+            </div>
+        </div>
+    </div>
+    <div class="video-header1">
+        <h3>B2 LEVEL ENGLISH COURSE</h3>
+    </div>
+
+    <div class="video-header2">
+        <h3 style="color: black;">Video Lessons and Materials</h3>
+    </div>
+    <div class="video-container">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/OX-XEa50fFw?si=J3yqeyx3kwKfHLOH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>    </div>
+    
+    <h4>Readings</h4>
+    <div class="reading1">
+    <button onclick="showReading()"><h3 style="color: white;">My Wonderful Family</h3></button>
+    <p class="reading-text" id="readingText">I live in a house near the mountains. I have two brothers and one sister, and I was born last.<br> My father teaches mathematics, and my mother is a nurse at a big hospital. My brothers are <br>very smart and work hard in school. My sister is a nervous girl, but she is very kind. My <br>grandmother also lives with us. She came from Italy when I was two years old. She has <br>grown old, but she is still very strong. She cooks the best food!
+
+        My family is very <br>important to me. We do lots of things together. My brothers and I like to go on long walks <br>in the mountains. My sister likes to cook with my grandmother. On the weekends we all play <br>board games together. We laugh and always have a good time. I love my family very much.
+        
+        </p>
+    </div>
+    <h4>Listenings</h4>
+    <div class="ses1">
+    <button onclick="toggleAudio()">Start/Stop Audio
+    </button>
+    </div>
+
+
+
+    <h4><br>Exam</h4>
+    <div class="quiz-container">
+        <h2>B2 Level English Quiz</h2>
+        <div id="question1" class="question">
+            <p>1. What is the capital of France?</p>
+            <label><input type="radio" name="q1" value="a"> a) London</label><br>
+            <label><input type="radio" name="q1" value="b"> b) Paris</label><br>
+            <label><input type="radio" name="q1" value="c"> c) Rome</label><br>
+        </div>
+        <div id="question2" class="question">
+            <p>2. How many continents are there in the world?</p>
+            <label><input type="radio" name="q2" value="a"> a) 5</label><br>
+            <label><input type="radio" name="q2" value="b"> b) 6</label><br>
+            <label><input type="radio" name="q2" value="c"> c) 7</label><br>
+        </div>
+        <div id="question3" class="question">
+            <p>3. What is the opposite of 'big'?</p>
+            <label><input type="radio" name="q3" value="a"> a) Small</label><br>
+            <label><input type="radio" name="q3" value="b"> b) Large</label><br>
+            <label><input type="radio" name="q3" value="c"> c) Huge</label><br>
+        </div>
+        <button onclick="checkAnswers()">Submit Answers</button>
+        <div id="results"></div>
+    </div>
+    <button onclick="redirectToPage()">End the course</button>
+    <script src="/public/js/a1buton.js"></script>
+    <script src="/public/js/search.js"></script>
+    <script src="/public/js/audio.js"></script>
+    <script src="/public/js/quiz4.js"></script>
+
+
+
+</body>
+</html>

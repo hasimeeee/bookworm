@@ -1,0 +1,72 @@
+body {
+    font-family: Courier New, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+.certificate-container {
+    position: relative;
+    width: 1000px;
+    height: 707px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.certificate-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.9;
+}
+
+.certificate-content {
+    position: relative;
+    text-align: center;
+}
+
+.certificate-title {
+    color: #333;
+    font-size: 50px;
+    margin-bottom: 60px;
+}
+
+.recipient {
+    color: #333;
+    font-size: 18px;
+}
+
+.recipient-name {
+    color: #333;
+    font-size: 24px;
+    margin: 20px 0;
+}
+
+.course-details {
+    color: #333;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.download-link {
+    display: inline-block;
+    background-color: #003d7e;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+    width: 200px;
+    text-align: center;
+    
+}
+
+.download-link:hover {
+    background-color: #0056b3;
+}

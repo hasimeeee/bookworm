@@ -1,0 +1,66 @@
+.profile-container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 70px auto; /* Adjust for topbar height */
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.profile-content {
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.profile-content h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.profile-content p {
+    color: #666;
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.profile-button {
+    display: inline-block;
+    color: white;
+    background-color: orange;
+    padding: 10px 20px;
+    margin-right: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.profile-button:hover {
+    background-color: darkorange;
+}
+
+.certificate {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.certificate h3 {
+    color: orange;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.certificate p {
+    color: #333;
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}

@@ -1,0 +1,87 @@
+.topbar{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: #fff;
+
+}
+.topbar .wrapper{
+    width: 100%;
+    max-width: 1366px;
+    display: flex;
+}
+.topbar .right {
+    flex: 3;
+    height: 100%;
+    background-color: orange;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.topbar .left {
+    flex: 3;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+.topbar .center{
+    flex: 6;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.topbar .center .searchEngine{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+.topbar .center .searchEngine i{
+    position: absolute;
+    left: -35px;
+    background-color: red;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 50%;
+}
+.topbar .center .searchEngine input{
+    width: 100%;
+    margin-right: 0px;
+    height: 30px;
+    border-radius: 3px;
+    padding: 0px 0px 0px 10px;
+    opacity: 0;
+    transition: all 0.5s;
+}
+
+.topbar .center .searchEngine{
+    width: 0%;
+    transition: all 0.5s;
+}
+.topbar .center .searchEngine.active{
+    width: 70%;
+}
+.topbar .center .searchEngine.active input{
+    opacity: 1;
+}
+.transparent-logo {
+    width: 200px; /* İstenilen genişlik */
+    height: 50px; /* Otomatik yükseklik ayarı, orantılı olarak */
+    opacity: 0.8; /* Opaklık değeri (0 ile 1 arasında) */
+}

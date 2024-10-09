@@ -1,0 +1,132 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.topbar {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: #fff;
+}
+
+.topbar .wrapper {
+    width: 100%;
+    max-width: 1366px;
+    display: flex;
+}
+
+.topbar .right {
+    flex: 3;
+    height: 100%;
+    background-color: orange;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.topbar .left {
+    flex: 3;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+.topbar .center {
+    flex: 6;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.topbar .center .searchEngine {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.topbar .center .searchEngine i {
+    background-color: red;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.topbar .center .searchEngine input {
+    width: 100%;
+    height: 30px;
+    border-radius: 3px;
+    padding: 0px 10px;
+    opacity: 0;
+    transition: all 0.5s;
+}
+
+.topbar .center .searchEngine {
+    width: 0%;
+    transition: all 0.5s;
+}
+
+.topbar .center .searchEngine.active {
+    width: 70%;
+}
+
+.topbar .center .searchEngine.active input {
+    opacity: 1;
+}
+
+.login-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.login-container h2 {
+    margin-bottom: 20px;
+    color: orange; /* Topbar ile uyumlu olması için */
+}
+
+.login-container input[type="text"],
+.login-container input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid orange; /* Topbar ile uyumlu olması için */
+    border-radius: 5px;
+}
+
+.login-container input[type="submit"] {
+    background-color: orange; /* Topbar ile uyumlu olması için */
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.login-container input[type="submit"]:hover {
+    background-color: #e69500; /* Daha koyu bir turuncu tonu */
+}
